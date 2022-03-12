@@ -17,14 +17,14 @@ class _ChatRoomState extends State<ChatRoom> {
 
   @override
   void initState() {
-    getUserInfo();
+    //getUserInfo();
     super.initState();
   }
 
-  getUserInfo() async {
+  /*getUserInfo() async {
     Constants.myName = await HelperFunctions.getUserNameSharedPreference();
     setState(() {});
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
